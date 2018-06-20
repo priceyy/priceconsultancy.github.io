@@ -1,0 +1,117 @@
+
+/* styles.scss */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+.wordmark {
+
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 3em;
+    color: #333;
+}
+#brand {
+
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    background-color: #ff5722;
+}
+.quote {
+
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: right;
+
+}
+.about {
+    margin: 10%;
+    margin-top: 6%;
+    text-align: justify;
+}
+.wrapper {
+
+    background-color: #ecfafb;
+    color: #333;
+    width: 100%;
+}
+#client-title {
+
+    text-align: left;
+}
+.client {
+
+    text-align: center;
+}
+.logos{
+
+    margin-top: 2%;
+}
+.clients {
+
+    padding: 5em;
+}
+.logo {
+
+    padding: 1.5em;
+}
+footer {
+
+    background-color: #020205;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1000px and min-width: 900px) {
+
+    #quote {
+        font-size: 2.5em;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    #quote {
+        font-size: 2em;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    .quote {
+        margin-left: 30%;
+    }
+    .about {
+        margin-right: 30%;
+    }
+}
+@media (max-width: 1000px) {
+
+    .clients {
+
+        margin: 1.5em;
+    }
+    .about {
+        margin: 1.5em;
+    }
+    .quote {
+
+        margin: 1.5em;
+    }
+}
+@media (max-width: 991px) {
+
+    #telephone {
+
+        display: none;
+    }
+}
